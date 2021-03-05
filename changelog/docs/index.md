@@ -1,17 +1,36 @@
-# Welcome to MkDocs
+# Changelog
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+All notable changes to this project will be documented in this file.
 
-## Commands
+--- 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Unreleased
+- Cards that show both activity and attendance
+- User images
+- Custom Date Ranges
+- Specific User Reports
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## [0.4.0] - 2021-03-05
+### Changed
+- We now discard AT time data
+
+---
+
+## [0.3.0] - 2021-02-12
+### Added
+- Integrated ROTACloud API
+- Prototype of "cards" model
+
+---
+
+## [0.2.0] - 2021-02-05
+### Added
+- You can now select from pre-set date ranges
+
+---
+
+## [0.1.0] - 2021-01-22
+### Added
+- Pulls activity logs for the current day

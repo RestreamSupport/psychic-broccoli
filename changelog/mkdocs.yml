@@ -1,10 +1,5 @@
 site_name: Restream Supervisor App
 site_author: div0ky
-nav:
-  - Getting Started: 'index.md'
-  - Installation: 'setup.md'
-  - F.A.Q.: 'faq.md'
-  - Changelog: 'changelog.md'
 theme: material
 plugins:
   - search:
