@@ -1,0 +1,39 @@
+site_name: Restream Supervisor App
+site_author: div0ky
+nav:
+  - Getting Started: 'index.md'
+  - Installation: 'setup.md'
+  - F.A.Q.: 'faq.md'
+  - Changelog: 'changelog.md'
+theme: material
+plugins:
+  - search:
+      lang:
+        - en
+  - git-revision-date-localized:
+      type: timeago
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - smarty
+  - attr_list
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.progressbar
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - pymdownx.snippets
