@@ -12,7 +12,18 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## Known Issues
+- Activity Logs & Attendance Logs aren't matching properly
+- Cards are being created by activity entry and not attendance entry
+
+---
+
 ## [0.4.0] - 2021-03-05
+### Added
+- Merged activity and attendance data
+- Created new database models for holding entries of both
+- Created "setters & getters" for accessing saved data
+
 ### Changed
 - We now discard AT time data
 
