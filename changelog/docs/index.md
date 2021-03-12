@@ -6,15 +6,27 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 - Cards that show both activity and attendance
-- User images
-- Custom Date Ranges
-- Specific User Reports
 
 ---
 
 ## Known Issues
-- Activity Logs & Attendance Logs aren't matching properly
-- Cards are being created by activity entry and not attendance entry
+- None
+
+---
+
+## [0.5.0] - 2021-03-12
+### Added
+- User emails now show up on cards for results page
+- Activity log auto converts to the viewers local timezone
+
+### Changed
+- Results page now shows attendance & activity
+- Now properly pulling all data into one view
+- "Left Early" is now greyed out if user hasn't clocked out yet
+- Rearranged the results page to fit cards and activity logs better
+
+### Fixed
+- Attendance data is dynamic now
 
 ---
 
