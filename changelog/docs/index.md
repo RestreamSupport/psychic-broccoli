@@ -27,6 +27,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - Attendance data is dynamic now
+- Cards and activity logs are properly matched up
 
 ---
 
